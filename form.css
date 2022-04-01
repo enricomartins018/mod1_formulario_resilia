@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/12/fundo-amarelo40.jpg?fit=2880%2C1800&ssl=1);
+    height: 94%;
+    
+}
+
+#titulo1{
+    color: #FFD000;
+    text-align: center;
+    font-size: 200%;
+}
+
+#titulo2{
+    display: flex;
+    color:#FFD000;
+    font-size: 90%;
+}
+
+.formulario5 .caixas label, input{
+    display: block;
+    border-radius: 5px;
+    
+}
+
+.formulario5 .caixas label{
+    margin-bottom: 10px;
+}
+
+.formulario5 .caixas input{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.formulario5{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    border-radius: 50px;
+    background-color: #1f1d1d;
+    color: #FFD000;
+    padding: 0px 30px;
+}
+
+#botao{
+    transition: 0.1s;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #FFD000;
+}
+
+#botao:hover{
+    transform: scale(1.1);
+}
+
+
